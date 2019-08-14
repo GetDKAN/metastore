@@ -1,0 +1,22 @@
+{
+    "name": "getdkan/metastore",
+    "description": "A Drupal independent version of Dkan's metastore.",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "fmizzell",
+            "email": "fmizzell.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dkan\\Metastore\\": "src/",
+            "Dkan\\MetastoreTest\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.5.0"
+    },
+    "require": {
+    }
+}
